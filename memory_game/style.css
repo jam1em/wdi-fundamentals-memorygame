@@ -1,13 +1,28 @@
-body {
-text-align: center;
-text-decoration-style: wavy;
-margin: 0;
-}
 
 header{
 	background-color: #F15B31;
 	font-color: white;
 	padding: top 30px, bottom 30px, right 20px, left 20px;
+}
+
+body {
+text-align: center;
+text-decoration-style: wavy;
+margin: 0;
+}
+h1: {
+	margin: 0;
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+}
+
+h2 {
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	color: #F15B31;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
 }
 
 nav {
@@ -26,24 +41,6 @@ a {
 	text-decoration: none;
 	border-bottom: 2px solid transparent;
 	text-transform: uppercase;
-}
-
-a:hover {
-	border-color: #FFFFFF;
-}
-h1: {
-	margin: 0;
-	font-family: "Raleway", sans-serif;
-	font-weight: 400;
-}
-
-h2 {
-	font-family: "Raleway", sans-serif;
-	text-transform: uppercase;
-	color: #F15B31;
-	letter-spacing: 1px;
-	font-weight: 600;
-	font-size: 18px;
 }
 
 p {
@@ -90,4 +87,8 @@ footer {
 .name {
 	color: #F15B31;
 	font-weight: 700;
+}
+
+a:hover {
+	border-color: #FFFFFF;
 }
